@@ -1,0 +1,10 @@
+# Python
+__pycache__/
+*.pyc
+
+# Data & Models
+*.csv
+*.joblib
+
+# Environments
+.venv/

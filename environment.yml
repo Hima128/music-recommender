@@ -1,0 +1,12 @@
+name: music-recommender  # Environment name
+channels:
+  - conda-forge  # Optional: prioritize this channel for packages
+  - defaults
+dependencies:
+  - python=3.12.7    # Specify Python version
+  - pandas
+  - scikit-learn
+  - joblib
+  - pip           # Include pip if needed
+  - pip:          # Add pip-only packages (optional)
+    - sklearn     # Alias for scikit-learn (if needed)
